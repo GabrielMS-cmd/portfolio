@@ -12,6 +12,11 @@ a {
     display: inline-block;
 }
 
-strong {
+.titulo_destaque {
     color: #2a9d8f;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: center
 }
