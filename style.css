@@ -1,0 +1,17 @@
+body {
+    background-color: #e76f51;
+    color: white;
+}
+
+a {
+    color: #2a9d8f;
+    text-decoration: none ;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+strong {
+    color: #2a9d8f;
+}
