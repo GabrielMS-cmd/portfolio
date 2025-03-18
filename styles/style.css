@@ -30,7 +30,7 @@ body {
 
 .cabecalho_menu_link {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
 }
@@ -40,22 +40,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 85px;
 }
 
 .minha_foto {
-    width: 488px;
-    height: 550px;
+    width: 45%;
+    
 }
 
 .apresentacao_conteudo {
-    width: 615px;
+    width: 45%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacao_conteudo_titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 
 
@@ -67,7 +68,7 @@ body {
 
 
 .apresentacao_conteudo_texto {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
@@ -87,13 +88,13 @@ body {
 }
 .apresentacao_botao {
     color: var(--cor-terciaria);
-    width: 280px;
+    width: 45%;
     text-decoration: none ;
     text-align: center;
     padding: 10px 20px;
     background-color: var(--cor-secundaria);
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -112,6 +113,28 @@ body {
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
+
+@media (max-width: 1000px){
+
+    .cabecalho{
+        padding: 5%;
+    }
+
+    .cabecalho_menu{
+        justify-content: center;
+        
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 6%;
+    }
+
+    .apresentacao_conteudo{
+        width: auto;
+    }
+}
+
